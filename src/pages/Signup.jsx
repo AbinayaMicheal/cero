@@ -53,7 +53,7 @@ function Signup() {
             return
         }
 
-        axios.post('http://localhost:5000/signup', {
+        axios.post('https://cero-ies2.onrender.com/signup', {
             name: name,
             email: email,
             password: password
