@@ -1,6 +1,10 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
+import bridalHero from '../assets/images/bridal-hero.jpg'
+import traditionalBridal from '../assets/images/traditional-bridal.jpg'
+import modernBridal from '../assets/images/modern-bridal.jpg'
+import customBridal from '../assets/images/custom-bridal.jpg'
 
 function Home() {
     return (
@@ -50,7 +54,7 @@ function Home() {
 
                         <div className="w-full max-w-md">
                             <img
-                                src="/src/assets/images/bridal-hero.jpg"
+                                src={bridalHero}
                                 alt="Bridal Collection"
                                 className="w-full h-112.5 object-cover rounded-t-[180px] rounded-b-2xl"
                             />
@@ -90,7 +94,7 @@ function Home() {
                     <div className="bg-[#F8F3EF] rounded-2xl overflow-hidden">
 
                         <img
-                            src="/src/assets/images/traditional-bridal.jpg"
+                            src={traditionalBridal}
                             alt="Traditional Bridal"
                             className="w-full h-80 object-cover"
                         />
@@ -118,7 +122,7 @@ function Home() {
                     <div className="bg-[#F8F3EF] rounded-2xl overflow-hidden">
 
                         <img
-                            src="/src/assets/images/modern-bridal.jpg"
+                            src={modernBridal}
                             alt="Modern Bridal"
                             className="w-full h-80 object-cover"
                         />
@@ -146,7 +150,7 @@ function Home() {
                     <div className="bg-[#F8F3EF] rounded-2xl overflow-hidden">
 
                         <img
-                            src="/src/assets/images/custom-bridal.jpg"
+                            src={customBridal}
                             alt="Custom Bridal"
                             className="w-full h-80 object-cover object-[center_30%]"
                         />
